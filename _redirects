@@ -1,0 +1,76 @@
+# domain-level redirect
+
+http://hdtennis.netlify.app/* https://www.hdtennis.com/:splat 301!
+https://hdtennis.netlify.app/* https://www.hdtennis.com/:splat 301!
+
+# normal redirects
+
+/sitemap.html /sitemap.txt 301
+/sitemap.xml /sitemap.txt 301
+
+# redirect site icons
+
+/android-chrome-192x192.png /_assets/siteicons/android-chrome-192x192.png 301
+/android-chrome-512x512.png /_assets/siteicons/android-chrome-512x512.png 301
+/apple-touch-icon.png /_assets/siteicons/apple-touch-icon.png 301
+/browserconfig.xml /_assets/siteicons/browserconfig.xml 301
+/favicon-16x16.png /_assets/siteicons/favicon-16x16.png 301
+/favicon-32x32.png /_assets/siteicons/favicon-32x32.png 301
+/favicon.ico /_assets/siteicons/favicon.ico 301
+/mstile-150x150.png /_assets/siteicons/mstile-150x150.png 301
+/safari-pinned-tab.svg /_assets/siteicons/safari-pinned-tab.svg 301
+/site.webmanifest /_assets/siteicons/site.webmanifest 301
+
+# site re-organization redirects
+
+/grs/USRSA_certification.html /info/USRSA_certification.html 301
+/grs/adding_mass_at_tip.html /info/adding_mass_at_tip.html 301
+/grs/choosing.html /info/choosing.html 301
+/grs/comparison.html /info/comparison.html 301
+/grs/contact.html /contact.html 301
+/grs/credentials.html /info/credentials.html 301
+/grs/eldon-dedini-cartoon.html /info/eldon-dedini-cartoon.html 301
+/grs/federer_playtest.html /info/federer_playtest.html 301
+/grs/find_racquet_new.html /services/find-racquet-new.html 301
+/grs/find_racquet_old.html /services/find-racquet-old.html 301
+/grs/find_string.html /services/find-string.html 301
+/grs/index.html /services/index.html 301
+/grs/prices.html /services/prices.html 301
+/grs/pro_racquet_specs.html /info/pro_racquet_specs/index.html 301
+/grs/pro_racquet_specs/200603karlovic_head.html /info/pro_racquet_specs/200603karlovic_head.html 301
+/grs/pro_racquet_specs/200703nadal_babolat.html /info/pro_racquet_specs/200703nadal_babolat.html 301
+/grs/pro_racquet_specs/2007paes_babolat.html /info/pro_racquet_specs/2007paes_babolat.html 301
+/grs/pro_racquet_specs/200803ivanovic_yonex.html /info/pro_racquet_specs/200803ivanovic_yonex.html 301
+/grs/pro_racquet_specs/200803kuznetsova_head.html /info/pro_racquet_specs/200803kuznetsova_head.html 301
+/grs/pro_racquet_specs/200903soderling_head.html /info/pro_racquet_specs/200903soderling_head.html 301
+/grs/pro_racquet_specs/2009bnp_paribas_open.html /info/pro_racquet_specs/2009bnp_paribas_open.html 301
+/grs/pro_racquet_specs/201003bnp-paribas-open.html /info/pro_racquet_specs/201003bnp-paribas-open.html 301
+/grs/pro_racquet_specs/2012-bnp-paribas-open.html /info/pro_racquet_specs/2012-bnp-paribas-open.html 301
+/grs/pro_racquet_specs/201207mercury-insurance-open.html /info/pro_racquet_specs/201207mercury-insurance-open.html 301
+/grs/pro_racquet_specs/agassi-radical-tour.html /info/pro_racquet_specs/agassi-radical-tour.html 301
+/grs/pro_racquet_specs/dent_wilson_n.html /info/pro_racquet_specs/dent_wilson_n.html 301
+/grs/pro_racquet_specs/federer-pro-staff-rf97-autograph.html /info/pro_racquet_specs/federer-pro-staff-rf97-autograph.html 301
+/grs/pro_racquet_specs/federer_wilson_k.html /info/pro_racquet_specs/federer_wilson_k.html 301
+/grs/pro_racquet_specs/federer_wilson_n.html /info/pro_racquet_specs/federer_wilson_n.html 301
+/grs/pro_racquet_specs/grab_bag.html /info/pro_racquet_specs/grab_bag.html 301
+/grs/pro_racquet_specs/lleyton-hewitt.html /info/pro_racquet_specs/lleyton-hewitt.html 301
+/grs/pro_racquet_specs/rafter_prince_prtmp.html /info/pro_racquet_specs/rafter_prince_prtmp.html 301
+/grs/pro_racquet_specs/sampras_wilson.html /info/pro_racquet_specs/sampras_wilson.html 301
+/grs/qualifications_usrsa.html /info/qualifications_usrsa.html 301
+/grs/quality-index.html /info/quality-index.html 301
+/grs/racquet-basics.html /info/racquet-basics.html 301
+/grs/racquet-match/adrian-belcher.html /racquet-match/adrian-belcher.html 301
+/grs/racquet-match/dustin-miller-dunlop-200G.html /racquet-match/dustin-miller-dunlop-200G.html 301
+/grs/racquet-match/ian-kelly.html /racquet-match/ian-kelly.html 301
+/grs/racquet-match/sarah-gaaf.html /racquet-match/sarah-gaaf.html 301
+/grs/racquet-match/victor-chew.html /racquet-match/victor-chew.html 301
+/grs/racquet-services.html /services/racquet-services.html 301
+/grs/racquet_profiles.html /info/racquet_profiles.html 301
+/grs/racquetresearch.html /info/racquetresearch.html 301
+/grs/restring-info.html /services/restringing.html 301
+/grs/string-basics.html /info/string-basics.html 301
+/grs/tennis-links.html /links.html 301
+/grs/thanks.html /info/thanks.html 301
+/grs/toc_information.html /info/index.html 301
+/grs/toc_services.html /services/index.html 301
+/grs/wild_string_jobs.html /info/wild_string_jobs.html 301

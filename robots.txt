@@ -1,0 +1,7 @@
+# robots.txt file for https://www.hdtennis.com/
+# mail greg@hdtennis.com with constructive criticism
+
+User-agent: *
+
+Sitemap: https://www.hdtennis.com/sitemap.xml
+Sitemap: https://www.hdtennis.com/sitemap.txt

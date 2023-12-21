@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- #bbinclude "meta.incl" -->
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="/_assets/css/hdtennis.css"><meta name="author" content="Greg Raven, copyright 2023"><meta name="keywords" content="Greg Raven, tennis racquet, stringing, restringing, customizing, customization, high desert"><meta name="description" content="Professional-quality tennis racquet re-stringing and customization at affordable prices by Greg Raven."><link href="https://www.hdtennis.com/info/racquet_profiles.html" rel="canonical">
+<!-- end bbinclude -->
+	<title>Racquet mass profiles</title>
+<!-- #bbinclude "mathjax.incl" -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+	window.MathJax = {
+	  tex: {
+		tags: 'all'
+	  }
+	};
+</script>
+<!-- end bbinclude -->
+</head>
+<body>
+<!-- #bbinclude "navbar.incl" -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation"><div class="container-fluid"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">Menu</button><a class="navbar-brand" href="/index.html">Greg&rsquo;s Racquet Service</a></div><!-- /.navbar-header --><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li id="services"><a href="/services/index.html">Services</a></li><li id="info"><a href="/info/index.html">Info</a></li><li id="links"><a href="/links.html">Links</a></li><li id="contact"><a href="/contact.html">Contact</a></li><li id="search"><a href="/search.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li></ul></div><!--/.navbar-collapse --></div><!-- /.container --></nav><script src="/_assets/js/menu-highlight-min.js"></script>
+<!-- end bbinclude -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<article class="well">
+				<h2>
+					Racquet mass profiles
+				</h2>
+				<p class="lead">
+					A work in progress.
+				</p>
+				<p>
+					One of the posters on the <a href="https://tt.tennis-warehouse.com/index.php">Talk Tennis bulletin board</a> (the fora generously provided by <a href="https://www.tennis-warehouse.com/">Tennis Warehouse</a>), made a great deal of explaining racquet differences in part by stating that such and such a racquet had more mass at the bottom of the hoop, and that other racquets had concentrations of mass elsewhere. These comments seemed very odd to me, not the least because I doubted that the poster had any idea what he was talking about, and also because it seemed that the only way to know about concentrations of mass in a racquet would be to section the racquet and weigh each piece &mdash; a procedure that would require sectioning at least two of each racquet, to avoid missed data points due to the mass lost in the sectioning process.
+				</p>
+				<p>
+					I wasn&rsquo;t about to start sectioning racquets, but it got me thinking that it might be possible, using published racquet specifications and a little math, to reveal where in the racquet the mass is concentrated, if anywhere.
+				</p>
+				<p>
+					Therefore, I started playing around with the <a href="https://www.racquetresearch.info/parallel.html" title="Parallel axis theorem">parallel axis theorem</a>, hoping that by applying the theorem to racquets of known specifications, I could create racquet &ldquo;profiles,&rdquo; which would shed some light on the mass distribution throughout the frame of the racquet. I believe I have successfully applied the theorem, but I&rsquo;m not certain that I understand everything I know about the results.
+				</p>
+				<p>
+					For those who want to work through the math themselves, I used as the equation:
+				</p>
+				<p>
+					\[Ia = I_{10} + M \times [2 \times(10 - a) \times r - (10 - a)^2]\]
+				</p>
+				<p>
+					<var>I</var><sub>a</sub> is the swing weight at distance A from the butt cap, <var>I</var><sub>10</sub> is the published swing weight (at 10 cm up from the butt cap), <var>M</var> is the mass of the racquet, <var>a</var> is the distance from the butt cap to the new axis of rotation, and <var>r</var> is the distance from the mass center (AKA balance point) to the new axis of rotation.
+				</p>
+				<p>
+					For purposes of illustration, I used three racquets, a Wilson, a Prince, and a Gamma; the Wilson because it has the lowest published balance point, the Prince because it is almost evenly balanced, and the Gamma because it has the highest published balance point.
+				</p>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<td></td>
+								<th> Wilson </th>
+								<th> Prince </th>
+								<th> Gamma </th>
+								<th> units </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td> Mass </td>
+								<td> 340 </td>
+								<td> 299 </td>
+								<td> 270 </td>
+								<td> gm </td>
+							</tr>
+							<tr>
+								<td> Balance point </td>
+								<td> 30.25 </td>
+								<td> 34.25 </td>
+								<td> 43.5 </td>
+								<td> cm </td>
+							</tr>
+							<tr>
+								<td> Swing weight </td>
+								<td> 297 </td>
+								<td> 322 </td>
+								<td> 508 </td>
+								<td> at 10 cm </td>
+							</tr>
+							<tr>
+								<td> Racquet length </td>
+								<td> 68.58 </td>
+								<td> 68.58 </td>
+								<td> 81.28 </td>
+								<td> cm </td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p>
+					Because lines and lines of numeral calculation results can be difficult to visualize, I created a chart of the results.
+				</p>
+				<figure class="text-center">
+					<img src="/_assets/img/profiles.png" alt="Selected racquet profiles" width="399" height="397" class="img-thumbnail">
+				</figure>
+				<p>
+					The lines on this chart may seem a bit counter-intuitive. Where the lines start on the left is the calculated swing weight if you could swing the racquet by the end of the butt cap, so what you&rsquo;re really seeing is the weight of the head of the racquet (because it is farthest away from the axis of rotation). At the right end of the chart, the lines represent what it would be like to swing the racquet grasping it by the head, so you&rsquo;re really seeing the weight of the handle. Toward the middle of each line, the low point represents the mass center of the racquet. (Note: The last data point shown for each racquet is at 68 centimeters.)
+				</p>
+				<p>
+					The Wilson &mdash; being head light &mdash; swings &ldquo;heavier&rdquo; from the hoop than from the handle. The Prince swings about the same from either end, by virtue of its even balance. The Gamma swings much heavier from the handle than from the hoop, because the mass is biased so much toward the tip of the racquet.
+				</p>
+				<p>
+					However, I&rsquo;m not certain where to go from here. The curves are smooth and continuous, without lumps (as far as I can see), so if there are any concentrations of mass other than the obvious ones (head-light, head-heavy, etc.), I&rsquo;m not seeing them.
+				</p>
+				<p>
+					Furthermore, I&rsquo;m wondering if this is a valid approach. Given a hypothetical racquet with a concentration of mass at the bottom of the hoop, this mass would &ldquo;pull&rdquo; the balance point toward it, which would affect each of the calculations in such a way as to essentially hide the concentration from this type of analysis.
+				</p>
+				<p>
+					On the other hand, comparing &mdash; say &mdash; the ratio of the balance point to the swing weight might reveal something, but it wouldn&rsquo;t tell you the location of any concentration of mass.
+				</p>
+				<p>
+					After putting my questions to the posters on the Tennis Warehouse message board, one suggestion that came back was (if I understood it correctly) to map hitting weight against racquet length. This involves a bit more math, but here are the results:
+				</p>
+				<figure class="text-center">
+					<img src="/_assets/img/profiles2.png" alt="Racquet mass profiles" width="439" height="360" class="img-thumbnail">
+				</figure>
+				<p>
+					Although this chart is easier to read, it appears to me to be essentially similar to the previous chart, where the peak is at the balance point &mdash; no surprise there.
+				</p>
+				<p>
+					One other suggestion, which I myself had thought of after posting my query on Talk Tennis, was to take a known racquet and add mass along the length and redo the measurements. This sounds like a good idea, and one I&rsquo;ll do ASAP, but at this juncture it&rsquo;s difficult to see how these mathematical approaches will reveal the location at which the mass is added. We&rsquo;ll see.
+				</p>
+				<p>
+					<b>Addendum:</b> Jun Wong from New York points out that &ldquo;you can obtain the volume of some segment by using the Archimedes principal &hellip; dipping in water and measuring the amount of water displaced.&rdquo; Brilliant, but it sounds as if this would involve a lot of work. The point of this exercise was to see if one could <i>calculate</i> the mass profile of a racquet &mdash; that is, using math alone rather than actually doing measurements. If you have (or develop) the means to measure the racquet mass profile, then you certainly do not need to bother yourself with any of the above bloviation.
+				</p>
+			</article>
+		</div>
+<!-- /.col-md-10 -->
+	</div>
+<!-- /.row -->
+	<hr>
+</div>
+<!-- /.container -->
+<!-- #bbinclude "footer.incl" -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js does not work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- end bbinclude -->
+</body>
+</html>
